@@ -28,7 +28,7 @@ describe("AIS Login", () => {
     cy.contains("Desk Support Proposal Tool");
     cy.wait(["@signOn", "@OBOServlet"]).spread((signOn, OBOServlet) => {
       expect(signOn.status).to.eq(200);
-      //expect(xhr.length).to.eq(2);
+      //expect(xhr.length).to.eq(2);;
       expect(signOn.method).to.eq("GET");
       expect(signOn.responseBody).to.have.property("results");
     });
