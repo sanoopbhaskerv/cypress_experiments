@@ -1,0 +1,24 @@
+{
+  "name": "cypress_experiments",
+  "version": "1.0.0",
+  "description": "cypress exps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanoopbhaskerv/cypress_experiments.git"
+  },
+  "author": "sanoop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanoopbhaskerv/cypress_experiments/issues"
+  },
+  "homepage": "https://github.com/sanoopbhaskerv/cypress_experiments#readme",
+  "devDependencies": {
+    "cypress": "^4.10.0",
+    "eslint-plugin-cypress": "^2.11.1"
+  }
+}
